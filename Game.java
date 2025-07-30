@@ -18,7 +18,7 @@ public class Game extends GameMethods {
 
         //If statement below confirms user's choice and will run the corresponding story path.
         if (isKnight) {
-            System.out.println("You have chosen The Knight.");
+            System.out.println("You have chosen The Knight!");
             Knight.runKnightStory();
         } else if (isArcher) {
             System.out.println("You have chosen The Archer!");
